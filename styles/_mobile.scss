@@ -76,7 +76,7 @@
     .bannar {
         display: block;
         width: 100%;
-        height: 180vh;
+        height: 220vh;
         margin-top: 30px;
         // background: blue;
         background: rgba(225, 225, 225, 0.395);
@@ -84,7 +84,7 @@
         text-align: center;
     
         .headingTwo {
-            padding-top: 30px;
+            padding-top: 20px;
             margin-left: 0px;
             margin-top: -20px;
             color: rgb(112, 103, 103);
@@ -111,6 +111,7 @@
                     width: 320px;
                     // background: blue;
                     text-align: justify;
+                    margin-top: 50px;
     
                     .para {
                         font-size: 20px;
@@ -136,11 +137,11 @@
                     }
     
                     .meal {
-                        width: 120px;
-                        height: 120px;
+                        width: 350px;
+                        height: 170px;
                         // background-color: fixed;
                         // background: yellow;
-                        border-radius: 50%;
+                        border-radius: 2%;
                         margin-top: -12px;
                         background-repeat: no-repeat;
                         background-size: cover;
@@ -151,7 +152,7 @@
     }
     .apreciation {
         display: block;
-        margin-top: 95rem;
+        margin-top: 120rem;
         width: 100%;
         height: 40vh;
         text-align: center;
@@ -168,11 +169,12 @@
         .rating {
             .fas {
                 font-size: 30px;
+                margin-top: 20px;
             }
         }
     
         .button {
-            margin-top: 20px;
+            margin-top: 40px;
     
             .comment {
                 width: 50%;

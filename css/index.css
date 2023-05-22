@@ -80,19 +80,19 @@
 .bannar {
   display: block;
   width: 100%;
-  height: 70vh;
+  height: 83vh;
   background: rgba(225, 225, 225, 0.395);
   text-align: center;
+  margin-top: 120px;
 }
 .bannar .headingTwo {
-  padding-top: 30px;
+  padding-top: 10px;
   margin-left: 40px;
-  margin-top: -5px;
   color: rgb(112, 103, 103);
   font-size: 70px;
 }
 .bannar .container {
-  margin-top: -90px;
+  margin-top: -8rem;
   width: 90%;
   height: inherit;
 }
@@ -138,17 +138,18 @@
 
 .apreciation {
   display: block;
-  margin-top: 38%;
+  margin-top: 60%;
   width: 100%;
-  height: 30vh;
+  height: 40vh;
   text-align: center;
   align-items: center;
-  background-color: rgba(0, 0, 0, 0.292);
+  background-color: rgba(148, 148, 148, 0.292);
 }
 .apreciation h1 {
   font-size: 50px;
   text-align: center;
-  color: rgb(0, 0, 0);
+  color: rgb(66, 66, 66);
+  padding-top: 20px;
 }
 .apreciation .rating .fas {
   font-size: 35px;
@@ -183,6 +184,191 @@
   font-size: 2px;
 }
 
+@media (max-width: 1200px) {
+  @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
+  * {
+    padding: auto;
+    margin: auto;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+  }
+  .container {
+    width: 90%;
+    margin: 0px auto;
+    display: flex;
+    height: inherit;
+  }
+  .container .left-container {
+    width: 60%;
+    height: inherit;
+  }
+  .container .left-container h1 {
+    font-size: 40px;
+    color: rgb(185, 165, 165);
+    margin-left: 30px;
+    padding-top: 90px;
+  }
+  .container .left-container p {
+    width: 100%;
+    font-size: 22px;
+    color: rgba(156, 156, 156, 0.874);
+    text-align: justify;
+  }
+  .container .right-container {
+    width: 50%;
+    height: inherit;
+  }
+  .container .right-container .image-container,
+  .container .right-container .image-content {
+    width: 95%;
+    height: 190px;
+    margin-top: 0px;
+  }
+  .container .right-container .image-content {
+    margin-top: 90px;
+    display: block;
+    justify-content: space-between;
+  }
+  .container .right-container .image-content .image-background {
+    width: 100%;
+    height: inherit;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 50px;
+    margin-left: 10px;
+  }
+  .container .right-container .image-container {
+    display: none;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .wrapper {
+    width: 100%;
+    height: 120px;
+    background-image: url(/asset/img/hero2.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .wrapper .wrapper-container {
+    background: rgba(69, 69, 69, 0.656);
+    height: inherit;
+  }
+  .wrapper .wrapper-container .content {
+    height: 60px;
+    text-align: center;
+  }
+  .wrapper .wrapper-container .content .heading {
+    color: white;
+    font-size: 70px;
+    margin: auto;
+    padding: 13px;
+  }
+  .bannar {
+    display: block;
+    width: 100%;
+    height: 83vh;
+    background: rgba(225, 225, 225, 0.395);
+    text-align: center;
+    margin-top: 190px;
+  }
+  .bannar .headingTwo {
+    padding-top: 10px;
+    margin-left: 40px;
+    color: rgb(112, 103, 103);
+    font-size: 70px;
+  }
+  .bannar .container {
+    margin-top: -8rem;
+    width: 90%;
+    height: inherit;
+  }
+  .bannar .container .image-contain {
+    width: 100%;
+    height: 45vh;
+    display: flex;
+    justify-content: space-between;
+  }
+  .bannar .container .image-contain .contain1 {
+    height: inherit;
+    width: 320px;
+    text-align: justify;
+  }
+  .bannar .container .image-contain .contain1 .para {
+    font-size: 26px;
+    text-align: center;
+    margin-top: 20px;
+  }
+  .bannar .container .image-contain .contain1 .btn {
+    padding: 10px;
+    width: 47%;
+    font-size: 20px;
+    background: rgba(180, 180, 180, 0.712);
+    margin: 8px auto auto 50px;
+    cursor: pointer;
+    color: white;
+    border: none;
+    border-radius: 8px;
+  }
+  .bannar .container .image-contain .contain1 .btn:hover {
+    background: rgba(156, 156, 156, 0.863);
+    color: white;
+  }
+  .bannar .container .image-contain .contain1 .meal {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    margin-top: 2ex;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .apreciation {
+    display: block;
+    margin-top: 80%;
+    width: 100%;
+    height: 40vh;
+    text-align: center;
+    align-items: center;
+    background-color: rgba(148, 148, 148, 0.292);
+  }
+  .apreciation h1 {
+    font-size: 50px;
+    text-align: center;
+    color: rgb(66, 66, 66);
+    padding-top: 20px;
+  }
+  .apreciation .rating .fas {
+    font-size: 35px;
+  }
+  .apreciation .button {
+    margin-top: 20px;
+  }
+  .apreciation .button .comment {
+    width: 30%;
+    height: 54px;
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 18px;
+  }
+  .apreciation .button .submit {
+    width: 10%;
+    height: 55px;
+    font-size: 20px;
+    background: white;
+    cursor: pointer;
+    color: black;
+    border: none;
+    border-radius: 5px;
+  }
+  .apreciation .button .submit:hover {
+    background: rgba(156, 156, 156, 0.863);
+    color: white;
+  }
+  .apreciation .object {
+    margin-top: 20px;
+    font-size: 2px;
+  }
+}
 @media (max-width: 765px) {
   .wrapper .wrapper-container .content .heading {
     font-size: 50px;
@@ -240,13 +426,13 @@
   .bannar {
     display: block;
     width: 100%;
-    height: 180vh;
+    height: 220vh;
     margin-top: 30px;
     background: rgba(225, 225, 225, 0.395);
     text-align: center;
   }
   .bannar .headingTwo {
-    padding-top: 30px;
+    padding-top: 20px;
     margin-left: 0px;
     margin-top: -20px;
     color: rgb(112, 103, 103);
@@ -267,6 +453,7 @@
     height: inherit;
     width: 320px;
     text-align: justify;
+    margin-top: 50px;
   }
   .bannar .container .image-contain .contain1 .para {
     font-size: 20px;
@@ -289,16 +476,16 @@
     color: white;
   }
   .bannar .container .image-contain .contain1 .meal {
-    width: 120px;
-    height: 120px;
-    border-radius: 50%;
+    width: 350px;
+    height: 170px;
+    border-radius: 2%;
     margin-top: -12px;
     background-repeat: no-repeat;
     background-size: cover;
   }
   .apreciation {
     display: block;
-    margin-top: 95rem;
+    margin-top: 120rem;
     width: 100%;
     height: 40vh;
     text-align: center;
@@ -312,9 +499,10 @@
   }
   .apreciation .rating .fas {
     font-size: 30px;
+    margin-top: 20px;
   }
   .apreciation .button {
-    margin-top: 20px;
+    margin-top: 40px;
   }
   .apreciation .button .comment {
     width: 50%;

@@ -1,4 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+@media (max-width:1200px) {
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
 @import './variables';
 
 
@@ -10,21 +11,21 @@
     // background: blue;
 
     .left-container {
-        width: 50%;
+        width: 60%;
         height: inherit;
         // background: yellow;
 
         h1 {
-            font-size: 60px;
+            font-size: 40px;
             color: rgb(185, 165, 165);
             // text-align: center;
-            margin-left: 60px;
+            margin-left: 30px;
             padding-top: 90px;
             // align-items: center;
         }
 
         p {
-            width: 85%;
+            width: 100%;
             font-size: 22px;
             color: rgba(156, 156, 156, 0.874);
             text-align: justify;
@@ -39,27 +40,29 @@
 
         .image-container,
         .image-content {
-            width: 90%;
+            width: 95%;
             height: 190px;
             // background: red;
-            margin-top: 20px;
+            margin-top:0px;
         }
 
         .image-content {
             margin-top: 90px;
-            display: flex;
+            display: block;
             justify-content: space-between;
 
             .image-background {
-                width: 49%;
+                width: 100%;
                 height: inherit;
                 background-size: cover;
                 background-repeat: no-repeat;
+                margin-top: 50px;
+                margin-left: 10px;
             }
         }
 
         .image-container {
-            display: block;
+            display: none;
             background-size: cover;
             background-repeat: no-repeat;
         }
@@ -98,7 +101,7 @@
     background: rgba(225, 225, 225, 0.395);
     // align-items: center;
     text-align: center;
-    margin-top: 120px;
+    margin-top: 190px;
 
     .headingTwo {
         padding-top: 10px;
@@ -137,10 +140,10 @@
 
                 .btn {
                     padding: 10px;
-                    width: 40%;
+                    width: 47%;
                     font-size: 20px;
                     background: rgba(180, 180, 180, 0.712);
-                    margin: 8px auto auto 100px;
+                    margin: 8px auto auto 50px;
                     cursor: pointer;
                     color: white;
                     border: none;
@@ -153,8 +156,8 @@
                 }
 
                 .meal {
-                    width: 250px;
-                    height: 250px;
+                    width: 180px;
+                    height: 180px;
                     // background-color: fixed;
                     // background: yellow;
                     border-radius: 50%;
@@ -169,7 +172,7 @@
 
 .apreciation {
     display: block;
-    margin-top: 60%;
+    margin-top: 80%;
     width: 100%;
     height: 40vh;
     text-align: center;
@@ -223,6 +226,4 @@
         font-size: 2px;
     }
 }
-
-@import './normal';
-@import './mobile';
+}
