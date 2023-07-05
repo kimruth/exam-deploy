@@ -1,4 +1,4 @@
-@media (max-width: 765px) {
+@media (max-width: 540px) {
     .wrapper {
         .wrapper-container {
             .content {
@@ -11,6 +11,7 @@
     .container {
         width: 100%;
         margin: 0px auto;
+        margin-top: -10px;
         display: block;
         height: 109vh;
         // background: blue;
@@ -47,6 +48,7 @@
             .image-content {
                 width: 100%;
                 height: 160px;
+                margin-right: -15px;
                 // background: red;
                 margin-top: 20px;
             }
@@ -139,6 +141,7 @@
                     .meal {
                         width: 350px;
                         height: 170px;
+                        margin-left: -15px;
                         // background-color: fixed;
                         // background: yellow;
                         border-radius: 2%;

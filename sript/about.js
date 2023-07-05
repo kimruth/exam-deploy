@@ -9,7 +9,7 @@ section.style.background = 'rgba(252, 251, 251, 0.532)';
 //creating divs in the section
 let container = document.createElement('div')
 
-//styling the container
+// styling the container
 // container.style.height = 'inherit';
 // container.style.background = 'red';
 // container.style.display = 'flex';

@@ -93,7 +93,7 @@
 
 .bannar {
     display: block;
-    width: 100%;
+    width: 90%;
     height: 83vh;
     background: rgba(225, 225, 225, 0.395);
     // align-items: center;
@@ -101,7 +101,7 @@
     margin-top: 120px;
 
     .headingTwo {
-        padding-top: 10px;
+        // padding-top: 10px;
         margin-left: 40px;
         // margin-top: -5px;
         color: rgb(112, 103, 103);
@@ -111,12 +111,12 @@
     .container {
         // background: blue;
         margin-top: -8rem;
-        width: 90%;
+        width: 100%;
         height: inherit;
         // position: relative;
 
         .image-contain {
-            width: 100%;
+            width: 300%;
             height: 45vh;
             display: flex;
             justify-content: space-between;
